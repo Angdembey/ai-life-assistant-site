@@ -1,4 +1,4 @@
-# AI Life Assistant Site
+# LifeAssist-AI Site
 
 Marketing, support, and privacy pages for the basic iPhone 1.0 release.
 Uses the same static GitHub Pages structure as chess-grandmaster-site.
@@ -25,7 +25,7 @@ inside the separate website checkout (not the mobile app repository):
 ```sh
 git init -b main
 git add README.md .gitignore docs
-git commit -m "Create AI Life Assistant marketing, support, and privacy site"
+git commit -m "Create LifeAssist-AI marketing, support, and privacy site"
 git remote add origin https://github.com/Angdembey/ai-life-assistant-site.git
 git push -u origin main
 ```
