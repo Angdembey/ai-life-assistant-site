@@ -5,7 +5,7 @@ body { margin: 0; background: #fff; color: var(--ink); font-family: -apple-syste
 .wrap { width: min(100% - 2.5rem, 48rem); margin-inline: auto; }
 header { background: var(--blue); color: white; padding-block: 1.5rem; }
 header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 1.25rem; flex-wrap: wrap; }
-.brand { margin: 0; font-size: 1.125rem; font-weight: 700; }
+.brand { display: inline-flex; align-items: center; gap: .75rem; color: white; text-decoration: none; margin: 0; font-size: 1.125rem; font-weight: 700; }
 nav { display: flex; gap: 1.5rem; flex-wrap: wrap; }
 nav a { color: white; text-decoration-thickness: .08em; text-underline-offset: .3em; }
 nav a[aria-current] { font-weight: 700; }
@@ -75,3 +75,7 @@ h3 { font-size: 1.125rem; line-height: 1.4; margin: 0 0 .5rem; }
 .skip { position: absolute; top: -5rem; left: 1rem; background: white; padding: .7rem 1rem; z-index: 5; }
 .skip:focus { top: 1rem; }
 @media (max-width: 480px) { .wrap { width: calc(100% - 2rem); } main { padding-block: 2rem; } .contact { padding: 1rem; } }
+
+.app-icon { display: block; flex-shrink: 0; border-radius: 22%; }
+.hero-brand { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; }
+.marketing-hero .hero-brand .eyebrow { margin: 0; }
