@@ -104,13 +104,11 @@ details p { padding-inline: .5rem; }
 footer { background: var(--chrome); border-radius: .75rem; padding-inline: 1rem; }
 :focus-visible { outline-color: var(--blue); }
 .app-icon { object-fit: contain; }
-@media (prefers-color-scheme: dark) {
- :root { --ink: #f1f5fc; --blue: #90b8ff; --muted: #bac5d7; --line: #7586a1; --canvas: #10131b; --surface: #1b2230; --chrome: #303c50; --highlight: #243e63; }
- .page > header.marketing-hero { background: linear-gradient(120deg, #243e63, #1b2230); }
- .marketing-hero .button-link, .marketing-hero nav a, .button-link { background: var(--highlight); color: var(--blue); }
- .marketing-hero .eyebrow, .release-label { color: #bac5d7; }
- .skip { background: var(--surface); }
-}
+ :root[data-appearance="dark"] { --ink: #f1f5fc; --blue: #90b8ff; --muted: #bac5d7; --line: #7586a1; --canvas: #10131b; --surface: #1b2230; --chrome: #303c50; --highlight: #243e63; }
+ :root[data-appearance="dark"] .page > header.marketing-hero { background: linear-gradient(120deg, #243e63, #1b2230); }
+ :root[data-appearance="dark"] .marketing-hero .button-link, :root[data-appearance="dark"] .marketing-hero nav a, :root[data-appearance="dark"] .button-link { background: var(--highlight); color: var(--blue); }
+ :root[data-appearance="dark"] .marketing-hero .eyebrow, :root[data-appearance="dark"] .release-label { color: #bac5d7; }
+ :root[data-appearance="dark"] .skip { background: var(--surface); }
 @media (max-width: 40rem) {
  .page > header .wrap { width: calc(100% - 2rem); }
  main > section { padding: 1.1rem; }
@@ -125,3 +123,8 @@ body { overflow-wrap: anywhere; }
 .marketing-hero > *, .feature-grid > *, .workflow li, .privacy-feature > * { min-width: 0; }
 .hero-icon { max-width: 100%; height: auto; }
 @media (max-width: 40rem) { .marketing-hero { padding: 1.25rem; } .record-preview { padding: 1rem; } }
+
+:root[data-appearance="light"] { color-scheme: light; }
+:root[data-appearance="dark"] { color-scheme: dark; }
+.appearance-control { display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: .5rem; padding: 1rem; color: var(--ink); }
+.appearance-control select { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: .5rem; min-height: 44px; padding: .4rem .75rem; max-width: 100%; }
