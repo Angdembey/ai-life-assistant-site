@@ -1,6 +1,6 @@
 # LifeAssist-AI Site
 
-Marketing, support, and privacy pages for the basic iPhone 1.0 release.
+Marketing, support, and privacy pages for the iPhone and iPad 1.0 release.
 Uses the same static GitHub Pages structure as chess-grandmaster-site.
 
 ## Publication
@@ -37,7 +37,7 @@ preserve the docs/ directory when uploading.
 ## Content and maintenance
 
 Public contact: Dhana Angdembey / angdembey.dra@gmail.com, matching the existing
-Chess Grandmaster website. Source review date: October 3, 2026.
+Chess Grandmaster website. Source review date: October 8, 2026.
 
 There are no JavaScript dependencies, analytics, website forms, cookies set by
 the site, or external fonts. The homepage's record is a clearly marked example,

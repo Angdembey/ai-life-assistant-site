@@ -79,3 +79,49 @@ h3 { font-size: 1.125rem; line-height: 1.4; margin: 0 0 .5rem; }
 .app-icon { display: block; flex-shrink: 0; border-radius: 22%; }
 .hero-brand { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; }
 .marketing-hero .hero-brand .eyebrow { margin: 0; }
+/* Shared app-inspired surfaces; browser appearance remains independent of the app. */
+:root { color-scheme: light dark; --ink: #182235; --blue: #194dae; --muted: #4d596e; --line: #bbc6d8; --canvas: #eef1f6; --surface: #fff; --chrome: #e1e8f4; --highlight: #d3e0f8; }
+body { background: var(--canvas); color: var(--ink); font-size: 1rem; overflow-wrap: break-word; }
+.wrap { width: min(100% - 2rem, 64rem); }
+.page { width: min(100% - 1rem, 76rem); }
+.page > main.wrap, .page > footer.wrap { width: min(100% - 2rem, 64rem); }
+.page > header:not(.marketing-hero) { background: var(--chrome); color: var(--ink); border-bottom: 1px solid var(--line); }
+.brand, nav a { color: var(--ink); }
+nav a { display: inline-flex; align-items: center; min-height: 2.75rem; }
+.page > header:not(.marketing-hero) nav a[aria-current] { background: var(--highlight); border-radius: .75rem; padding-inline: .75rem; }
+main { padding-block: 2rem; }
+main > section, .marketing-page section, .feature-grid article { background: var(--surface); padding: 1.5rem; border: 0; border-radius: 1rem; margin-block: 1rem; }
+.contact, .privacy-feature { background: var(--highlight); }
+.hint { background: var(--highlight); border-inline-start: .25rem solid var(--blue); border-radius: .75rem; padding: 1rem; }
+details { padding-block: .5rem; }
+summary { min-height: 2.75rem; padding: .75rem .5rem; }
+details[open] summary { background: var(--highlight); border-radius: .75rem; color: var(--blue); }
+details p { padding-inline: .5rem; }
+.record-preview { background: var(--surface); }
+.marketing-hero { color: #f1f5fc; }
+.marketing-hero nav a { color: #194dae; }
+.marketing-page .feature-grid { background: transparent; }
+footer { background: var(--chrome); border-radius: .75rem; padding-inline: 1rem; }
+:focus-visible { outline-color: var(--blue); }
+.app-icon { object-fit: contain; }
+@media (prefers-color-scheme: dark) {
+ :root { --ink: #f1f5fc; --blue: #90b8ff; --muted: #bac5d7; --line: #7586a1; --canvas: #10131b; --surface: #1b2230; --chrome: #303c50; --highlight: #243e63; }
+ .page > header.marketing-hero { background: linear-gradient(120deg, #243e63, #1b2230); }
+ .marketing-hero .button-link, .marketing-hero nav a, .button-link { background: var(--highlight); color: var(--blue); }
+ .marketing-hero .eyebrow, .release-label { color: #bac5d7; }
+ .skip { background: var(--surface); }
+}
+@media (max-width: 40rem) {
+ .page > header .wrap { width: calc(100% - 2rem); }
+ main > section { padding: 1.1rem; }
+ header .wrap { gap: .5rem; }
+ nav { gap: .75rem; }
+ .hero-brand { flex-wrap: wrap; }
+ .marketing-hero, .privacy-feature, .workflow ol { grid-template-columns: 1fr; }
+ .marketing-page .feature-grid { grid-template-columns: 1fr; }
+}
+/* Long labels and zoomed text may wrap instead of widening a small screen. */
+body { overflow-wrap: anywhere; }
+.marketing-hero > *, .feature-grid > *, .workflow li, .privacy-feature > * { min-width: 0; }
+.hero-icon { max-width: 100%; height: auto; }
+@media (max-width: 40rem) { .marketing-hero { padding: 1.25rem; } .record-preview { padding: 1rem; } }
