@@ -128,3 +128,20 @@ body { overflow-wrap: anywhere; }
 :root[data-appearance="dark"] { color-scheme: dark; }
 .appearance-control { display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: .5rem; padding: 1rem; color: var(--ink); }
 .appearance-control select { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: .5rem; min-height: 44px; padding: .4rem .75rem; max-width: 100%; }
+
+.warning { background: #ffe080; color: #302000; border-inline-start: .3rem solid #b87500; padding: 1rem; border-radius: .75rem; }
+
+/* Current app media: responsive, user-controlled playback. */
+.hero-screen { margin: 0; max-width: 22rem; justify-self: center; }
+.hero-screen img { display: block; width: 100%; height: auto; border-radius: .85rem; }
+.hero-screen p { text-align: center; font-size: .875rem; color: #dce8f8; margin: .6rem 0 0; }
+.screenshot-grid, .preview-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; }
+.screenshot-grid figure { min-width: 0; margin: 0; }
+.screenshot-grid img { display: block; width: 100%; height: auto; border-radius: .75rem; }
+.screenshot-grid figcaption { font-size: .9375rem; margin-top: .65rem; }
+.preview-grid article { min-width: 0; }
+.preview-grid video { display: block; width: 100%; aspect-ratio: 3 / 4; background: #10131b; border-radius: .75rem; }
+.preview-grid p { margin-top: .75rem; }
+main > nav a { color: var(--blue); }
+@media (max-width: 760px) { .screenshot-grid, .preview-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 480px) { .screenshot-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; } .preview-grid { grid-template-columns: 1fr; } }
