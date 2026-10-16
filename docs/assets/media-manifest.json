@@ -1,0 +1,66 @@
+{
+  "release": "1.0.0 build 8",
+  "captured": "2026-10-16",
+  "vault": "locked screen and privacy guidance only",
+  "old_footage_reused": false,
+  "screenshots": {
+    "home.webp": "iPad Home",
+    "capture.webp": "iPad Capture",
+    "document.webp": "iPad sample PDF viewer",
+    "search.webp": "iPad policy search",
+    "vault.webp": "iPhone locked Vault (contained in 660\u00d7880 frame)",
+    "settings.webp": "iPad ordinary backup controls"
+  },
+  "videos": {
+    "overview.mp4": "iPad overview, 28 seconds",
+    "documents.mp4": "iPad capture choices and existing sample document viewer, 22 seconds",
+    "vault.mp4": "iPhone locked Vault, privacy guidance, ordinary backup settings, 25 seconds"
+  },
+  "files": [
+    {
+      "file": "capture.webp",
+      "bytes": 43906,
+      "sha256": "74b68636140ad6f4ae7a914b054415a0279efcb5c1cf2dad6d15e81e2d02b5b2"
+    },
+    {
+      "file": "document.webp",
+      "bytes": 86210,
+      "sha256": "dd7cca77428788fbb2bd3f3350ac215b00c1c4731a550c387e3d89cdd897ed33"
+    },
+    {
+      "file": "documents.mp4",
+      "bytes": 288875,
+      "sha256": "b3c5ca1fbdcaea9724354d9959416784abcf2c7022572c73c5c6ec19dfb2f36d"
+    },
+    {
+      "file": "home.webp",
+      "bytes": 52302,
+      "sha256": "a28b9b9bd259d9d05dfc02466aa87442665b316d1698eadb78810a0a247419a2"
+    },
+    {
+      "file": "overview.mp4",
+      "bytes": 330877,
+      "sha256": "c3538924eb8ade890d5d698ee00f6a68d6f10ae2071dffbcfc1a944ec28bae12"
+    },
+    {
+      "file": "search.webp",
+      "bytes": 41026,
+      "sha256": "c1ffbd8ba2fb3edb92a8192efa2c5663dbd402c54ed9cb09d7647632562beb96"
+    },
+    {
+      "file": "settings.webp",
+      "bytes": 90100,
+      "sha256": "8bec89dc32efccb7486b736d1137b1424a424dceec4d7f433eba647376749369"
+    },
+    {
+      "file": "vault.mp4",
+      "bytes": 322127,
+      "sha256": "8ade2e9595e95ec629fef9c5586a17543a612049b1cb294895b0be106d1f07d7"
+    },
+    {
+      "file": "vault.webp",
+      "bytes": 26836,
+      "sha256": "c64b71ba06b0e26f8498432497db0dcd4b3b04d9532a7ac0475643effea67771"
+    }
+  ]
+}
