@@ -1,20 +1,27 @@
 {
   "release": "1.0.0 build 8",
-  "captured": "2026-10-16",
-  "vault": "locked screen and privacy guidance only",
-  "old_footage_reused": false,
+  "capture_dates": [
+    "2026-10-16",
+    "2026-10-17"
+  ],
+  "vault": "Owner confirmed all sample data fictional and authorized displaying Vault features; passwords/secure values/recovery keys stay hidden.",
+  "old_build_footage_reused": false,
   "screenshots": {
     "home.webp": "iPad Home",
     "capture.webp": "iPad Capture",
-    "document.webp": "iPad sample PDF viewer",
+    "document.webp": "iPad SPECIMEN PDF viewer",
     "search.webp": "iPad policy search",
-    "vault.webp": "iPhone locked Vault (contained in 660\u00d7880 frame)",
-    "settings.webp": "iPad ordinary backup controls"
+    "vault.webp": "iPad four Vault item types and encrypted backup guidance",
+    "settings.webp": "iPad ordinary backup controls",
+    "vault-passwords.webp": "iPad fictional password management",
+    "vault-documents.webp": "iPad fictional secure documents",
+    "vault-notes.webp": "iPad fictional notes/codes",
+    "vault-other.webp": "iPad fictional other secure records"
   },
   "videos": {
     "overview.mp4": "iPad overview, 28 seconds",
-    "documents.mp4": "iPad capture choices and existing sample document viewer, 22 seconds",
-    "vault.mp4": "iPhone locked Vault, privacy guidance, ordinary backup settings, 25 seconds"
+    "documents.mp4": "iPad capture choices and saved document, 22 seconds",
+    "vault.mp4": "iPad four secure item types and encrypted Vault Backup & Restore, 29 seconds"
   },
   "files": [
     {
@@ -29,8 +36,8 @@
     },
     {
       "file": "documents.mp4",
-      "bytes": 288875,
-      "sha256": "b3c5ca1fbdcaea9724354d9959416784abcf2c7022572c73c5c6ec19dfb2f36d"
+      "bytes": 289228,
+      "sha256": "f6a5a217d315bf71bb57f54db37b7d4e92d11532458daa969d7fd28994f6305f"
     },
     {
       "file": "home.webp",
@@ -53,14 +60,34 @@
       "sha256": "8bec89dc32efccb7486b736d1137b1424a424dceec4d7f433eba647376749369"
     },
     {
+      "file": "vault-documents.webp",
+      "bytes": 68482,
+      "sha256": "a89b37607a7cf467a589d6b5170c02a38a2a000f0ee01efe278abf62f1b19515"
+    },
+    {
+      "file": "vault-notes.webp",
+      "bytes": 62816,
+      "sha256": "c187ed8c4b5be3024704e6a2d544f41878c0339de973162d0950f35962db5fab"
+    },
+    {
+      "file": "vault-other.webp",
+      "bytes": 60690,
+      "sha256": "0f40924b880651cb96b8b6f37f33afd1411c31eea9989c30006bc61c17c4574c"
+    },
+    {
+      "file": "vault-passwords.webp",
+      "bytes": 67866,
+      "sha256": "0792cf9fe7ea6656702c97b9773590acd2f68f7fbbf72648f6508dab70dd92e5"
+    },
+    {
       "file": "vault.mp4",
-      "bytes": 322127,
-      "sha256": "8ade2e9595e95ec629fef9c5586a17543a612049b1cb294895b0be106d1f07d7"
+      "bytes": 394711,
+      "sha256": "b473762f1aae19e8882ac8f3acf4474703627812f31d86cf3a05be9cd4131fe5"
     },
     {
       "file": "vault.webp",
-      "bytes": 26836,
-      "sha256": "c64b71ba06b0e26f8498432497db0dcd4b3b04d9532a7ac0475643effea67771"
+      "bytes": 87776,
+      "sha256": "e39ddec9aa5e5e29e4cf7d243eea1dadf045cbd0c41c8c3d924e03c4d60e9424"
     }
   ]
 }
