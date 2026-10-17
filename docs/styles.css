@@ -147,3 +147,43 @@ main > nav a { color: var(--blue); }
 @media (max-width: 480px) { .screenshot-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; } .preview-grid { grid-template-columns: 1fr; } }
 
 .vault-screens { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+/* App Store destination is ready; public availability remains pending release. */
+.store-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; }
+.store-hero { margin-block: 1.25rem 1.5rem; }
+.store-link { display: inline-flex; align-items: center; justify-content: space-between; gap: 1.5rem; min-height: 76px; padding: .8rem 1.15rem; border: 1px solid #66818f; border-radius: .85rem; background: #071d26; color: #fff; text-decoration: none; line-height: 1.25; }
+.store-link small, .store-link strong { display: block; }
+.store-link small { font-size: .8rem; color: #c3d8e2; margin-bottom: .15rem; }
+.store-link strong { font-size: 1.65rem; letter-spacing: -.02em; }
+.store-link:hover { border-color: #66cce6; background: #123745; color: #fff; }
+.store-link:focus-visible, .store-qr-mini:focus-visible { outline: 3px solid #ffe080; outline-offset: 4px; }
+.store-qr-mini { display: grid; grid-template-columns: 112px minmax(0, 1fr); align-items: center; gap: .75rem; max-width: 19rem; padding: .5rem .85rem .5rem .5rem; border: 1px solid #c5d9e1; border-radius: .85rem; background: #fff; color: #102c3a; text-decoration: none; line-height: 1.3; }
+.store-qr-mini img { display: block; width: 112px; height: 112px; background: #fff; border-radius: .3rem; }
+.store-qr-mini strong, .store-qr-mini small { display: block; }
+.store-qr-mini strong { font-size: .95rem; }
+.store-qr-mini small { margin-top: .35rem; font-size: .8rem; color: #4b6170; }
+.store-status { max-width: 37rem; margin: .75rem 0 0; color: #dce8f8; font-size: .9rem; }
+.marketing-page .store-release { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2rem; align-items: center; background: var(--highlight); padding: clamp(1.25rem, 4vw, 2.5rem); }
+.store-release h2 { max-width: 23ch; font-size: clamp(1.75rem, 3.5vw, 2.5rem); }
+.store-release .store-help { margin-top: 1.25rem; }
+.store-qr-large { margin: 0; text-align: center; }
+.store-qr-large img { display: block; width: 196px; height: 196px; max-width: 100%; background: #fff; border-radius: .75rem; }
+.store-qr-large figcaption { margin-top: .65rem; font-size: .9rem; }
+@media (max-width: 40rem) { .marketing-page .store-release { grid-template-columns: 1fr; gap: 1.5rem; } .store-qr-large { justify-self: start; } }
+@media (max-width: 24rem) { .store-qr-mini { grid-template-columns: 96px minmax(0, 1fr); } .store-qr-mini img { width: 96px; height: 96px; } }
+
+/* Compact About metadata stays separate from instructions and footer links. */
+:root { --about-surface: #e4eaf2; --about-edge: #7890a9; }
+:root[data-appearance="dark"] { --about-surface: #233041; --about-edge: #829bb2; }
+.page > footer.site-footer { display: grid; grid-template-columns: minmax(0, 40rem) minmax(10rem, 1fr); align-items: start; gap: 1.25rem; width: min(100% - 2rem, 64rem); margin: 1rem auto 0; padding: 1.25rem 0; border-top: 1px solid var(--line); border-radius: 0; background: transparent; color: var(--ink); }
+.about-card { padding: 1rem 1.15rem; border: 1px solid var(--line); border-inline-start: .2rem solid var(--about-edge); border-radius: .75rem; background: var(--about-surface); }
+.about-heading { display: flex; align-items: center; gap: .6rem; margin-bottom: .6rem; }
+.about-heading img { display: block; flex: 0 0 32px; border-radius: .45rem; }
+.about-card h2 { margin: 0; font-size: 1.05rem; line-height: 1.3; letter-spacing: 0; color: var(--ink); }
+.about-details { display: grid; gap: .2rem; }
+.about-card p { margin: 0; font-size: .9rem; line-height: 1.45; }
+.about-card .about-version { margin-top: .25rem; font-size: .8rem; color: var(--muted); }
+.about-card a { color: var(--blue); overflow-wrap: anywhere; text-underline-offset: .15em; }
+.site-footer .footer-links { display: flex; align-content: start; align-items: start; flex-wrap: wrap; gap: .15rem 1rem; padding-top: .2rem; }
+.site-footer .footer-links a { color: var(--blue); min-height: 44px; font-size: .9rem; line-height: 1.4; align-items: center; }
+@media (max-width: 48rem) { .page > footer.site-footer { grid-template-columns: 1fr; gap: .7rem; } }
