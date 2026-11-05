@@ -1,91 +1,139 @@
 {
-  "release": "1.0.0 build 10",
-  "captured": "2026-10-18",
-  "source": "c673d2fe6ed39e7830ff2b1ef5fc37c2b319ac1e",
-  "vault": "Owner-confirmed fictional examples; passwords, secure values, authentication entry, recovery keys and backup contents are excluded.",
-  "old_build_footage_reused": false,
-  "screenshots": {
-    "home.webp": "iPad icon Home",
-    "capture.webp": "iPad direct Capture icon menu",
-    "document.webp": "iPad SPECIMEN PDF viewer",
-    "search.webp": "iPad highlighted policy search",
-    "vault.webp": "iPad encrypted Vault Backup & Restore",
-    "settings.webp": "iPad ordinary backup controls",
-    "vault-passwords.webp": "iPad fictional password management, password hidden",
-    "vault-documents.webp": "iPad fictional secure-document list",
-    "vault-notes.webp": "iPad fictional secure notes, content hidden",
-    "vault-other.webp": "iPad fictional other secure records, content hidden"
-  },
-  "videos": {
-    "overview.mp4": "iPad overview, 25 seconds",
-    "documents.mp4": "iPad Capture menu and existing sample PDF viewer, 17 seconds",
-    "vault.mp4": "iPad four Vault types and encrypted backup controls, 25 seconds"
-  },
+  "release": "1.1.0 build 12",
+  "prepared": "2026-10-28",
+  "publication": "LOCAL ONLY; hold until app submission, approval and release",
+  "source": "Reviewed current working-tree simulator app; frozen distribution archive comparison remains separate",
+  "fictionalData": true,
   "files": [
     {
-      "file": "capture.webp",
-      "bytes": 44152,
-      "sha256": "4a6f88f5b8283e1d3bc4678566f78bedeb110cabdfa36a87411789db6ca0c72a"
-    },
-    {
-      "file": "document.webp",
-      "bytes": 86558,
-      "sha256": "d3f6fc5ccb75f4071269b56923cf9a8c0c36f96f849b5fd8ece363d08b59f9e0"
-    },
-    {
-      "file": "documents.mp4",
-      "bytes": 344306,
-      "sha256": "e0ec36882603bc518e9b719a675090ed6bd3390cdc1d812213723b023daa607d"
-    },
-    {
       "file": "home.webp",
-      "bytes": 48602,
-      "sha256": "13ec6ef4e85388d0697b80f77ab9853fb6bcb21361c24efd2fb893bfe1cd690b"
+      "source": "output/release-build12/ipad-media-current/screenshots/01-Home.png",
+      "size": [
+        840,
+        1120
+      ],
+      "sha256": "f70ac391e26b17a5ba0f94302cdbc3bb4dd76899da99399befb182861d0ebc48"
     },
     {
-      "file": "overview.mp4",
-      "bytes": 316563,
-      "sha256": "26123d2b3ebbe6978ec3e737459be72befc4278bbc0b8cc51e9f97b6bf9f5ecd"
+      "file": "ask.webp",
+      "source": "output/release-build12/ipad-media-current/screenshots/02-Ask-LifeAssist.png",
+      "size": [
+        840,
+        1120
+      ],
+      "sha256": "ae93c3a17d69219a4e6992a8ef325f8e079deb78ee27e849d37ad92c943703ba"
+    },
+    {
+      "file": "dashboard.webp",
+      "source": "output/release-build12/ipad-media-current/screenshots/03-Dashboard.png",
+      "size": [
+        840,
+        1120
+      ],
+      "sha256": "f6b52a962248ddf71694044311b91e70567e2edfb3d4d405866189c9a2732d12"
     },
     {
       "file": "search.webp",
-      "bytes": 43128,
-      "sha256": "c374765fc4b5c8915165a4c2503b4171234dd1e7c6f961064b61424898a2324a"
+      "source": "output/release-build12/ipad-media-current/screenshots/04-Search-Attachments.png",
+      "size": [
+        840,
+        1120
+      ],
+      "sha256": "32619259636d75c5a8966950902f659ff705c77f4f9e7fa6a61b84e60f48c87e"
     },
     {
-      "file": "settings.webp",
-      "bytes": 95208,
-      "sha256": "ca14876888cca703e237100446768d83d9ab7dc342a6b7b742ababa3451c8907"
-    },
-    {
-      "file": "vault-documents.webp",
-      "bytes": 70386,
-      "sha256": "b4926956374c45fa3b623112d1ef075d7523be65b2023739deaa81843f552b9e"
-    },
-    {
-      "file": "vault-notes.webp",
-      "bytes": 64726,
-      "sha256": "6f4f89ae0eaa5247b4060ab1f6718776741b7d22caf3bf6f45822245c3d49718"
-    },
-    {
-      "file": "vault-other.webp",
-      "bytes": 62570,
-      "sha256": "e23a4901469e12bd780d719d574dda8bbdf369ea4fe6f2d8e99b91edf95f6872"
-    },
-    {
-      "file": "vault-passwords.webp",
-      "bytes": 70654,
-      "sha256": "6680b297eda00453a0ee197fed8087268337bae8177d2b7e7cf87d87023da95f"
-    },
-    {
-      "file": "vault.mp4",
-      "bytes": 287068,
-      "sha256": "da74f0d638ea2c5f11567f83c9a7604331bbe493dec5ef2f4adafb528a54e9ca"
+      "file": "document.webp",
+      "source": "output/release-build12/ipad-media-current/screenshots/05-Original-Document.png",
+      "size": [
+        840,
+        1120
+      ],
+      "sha256": "1f5cc8b0775cf2c69ee0b4d132b3b905d942d01d3e6a319f168a94fae28ff8cb"
     },
     {
       "file": "vault.webp",
-      "bytes": 86620,
-      "sha256": "dbeea85d827fd21ab820076a32b887a73ac0e14fb5ca7fceed3d02f8df6c082f"
+      "source": "output/release-build12/ipad-media-current/screenshots/06-Vault-Overview.png",
+      "size": [
+        840,
+        1120
+      ],
+      "sha256": "532e353ae9415ceece222fb437a711a19b81897e7f6f632590bbaaa136a34b18"
+    },
+    {
+      "file": "vault-documents.webp",
+      "source": "output/release-build12/ipad-media-current/screenshots/11-Vault-Driver-License.png",
+      "size": [
+        840,
+        1120
+      ],
+      "sha256": "a83a279e0c6b3792bf85c5fec1a93d45c4ecf9b1078f828b8f5d4b8ed6803280"
+    },
+    {
+      "file": "vault-backup.webp",
+      "source": "output/release-build12/ipad-media-current/screenshots/08-Vault-Backup.png",
+      "size": [
+        840,
+        1120
+      ],
+      "sha256": "b60239723535db93e5da3b539f878de5c8db12979cfec5892af71185f0f703be"
+    },
+    {
+      "file": "capture.webp",
+      "source": "output/release-build12/ipad-media-current/screenshots/09-Capture.png",
+      "size": [
+        840,
+        1120
+      ],
+      "sha256": "a3e2736ce7407086736d17ec4a6eadd5208e22f23646aaf70afd1fef3f29ba1a"
+    },
+    {
+      "file": "vault-passwords.webp",
+      "source": "output/release-build12/ipad-media-current/screenshots/13-Vault-Password-Details.png",
+      "size": [
+        840,
+        1120
+      ],
+      "sha256": "eb832faa826424b20e77d3c3f5429bf2ddf0595d99c5377944a7d07fe74f0799"
+    },
+    {
+      "file": "vault-notes.webp",
+      "source": "output/release-build12/ipad-media-current/screenshots/14-Vault-Secure-Code.png",
+      "size": [
+        840,
+        1120
+      ],
+      "sha256": "62d8224e2e6320581951888fa8ed1b03d82367e22a6057b72d898c34dd4fb97d"
+    },
+    {
+      "file": "overview.mp4",
+      "source": "output/release-build12/app-previews-current/exports/LifeAssist-Ipad-Ask-Privacy-Build12.mp4",
+      "sha256": "6fa02ec3e4969403be73fba4ce9785e0863094df7e3c41bf986f044d13bb0cac"
+    },
+    {
+      "file": "vault.mp4",
+      "source": "output/release-build12/vault-previews-current/exports/LifeAssist-Ipad-Vault-Build12.mp4",
+      "sha256": "9f5339ce4611dc118c7402daf5ae022e315d037f2150f1cac518b95f8e5bd2e7"
+    },
+    {
+      "file": "documents.mp4",
+      "source": "output/release-build12/capture-preview-current/exports/LifeAssist-Ipad-Capture-OCR-Build12.mp4",
+      "sha256": "81b3fdbe5d0fcaf16482e83e01545848457b2e8290cb76728b150cb67cd3ab66"
+    },
+    {
+      "file": "duo-open.webp",
+      "source": "output/release-build12/duo-media-current/screenshots/01-Home-Unfolded.png",
+      "sha256": "a580efd89c097c0f17dac026457f83d583420fa282372011af9ed7ff588c8720"
+    },
+    {
+      "file": "duo-folded.webp",
+      "source": "output/release-build12/duo-media-current/screenshots/10-Home-Folded.png",
+      "sha256": "2baf28ed2648048525b65330507eb598a17a08de120c247cfe31f5f648e0c4b1"
+    },
+    {
+      "file": "duo-capture.mp4",
+      "source": "output/release-build12/capture-preview-current/exports/LifeAssist-Duo-Capture-OCR-Build12.mp4",
+      "sha256": "51606cd9e11dc0b3be93b75b94848462358a5191d7363eaf21fb555519d91164"
     }
-  ]
+  ],
+  "historicalUnusedMedia": "Other existing media files are retained historically; only listed refreshed files are referenced by the current Home gallery."
 }
